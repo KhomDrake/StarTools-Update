@@ -14,11 +14,21 @@ public class MorphStar : MonoBehaviour {
     public bool resolution = false;
     public bool contrast = false;
     public bool rotation = false;
+    public bool temperature = false;
 
     private Star myStar;
+    private float lastTemperature;
+    [Range(1000, 50000)] public float maxTemperature;
+    [Range(600, 1000)] public float minTemperature;
+    private bool grown = true;
+
+    private void Awake()
+    {
+        myStar = GetComponent<Star>();
+        lastTemperature = myStar.GetTemperature();
+    }
 
     public void Update () {
-        myStar = GetComponent<Star>();
         if(color)
         {
             UpdateColors();
@@ -43,7 +53,36 @@ public class MorphStar : MonoBehaviour {
         {
             UpdateContrast();
         }
+        if(temperature)
+        {
+            UpdateTemperature();
+        }
 	}
+
+    public void UpdateTemperature()
+    {
+        float nextTemperature = 0f;
+        
+        if(grown)
+        {
+            nextTemperature = myStar.GetTemperature() + ((maxTemperature - myStar.GetTemperature())/300);
+        }
+        else
+        {
+            nextTemperature = myStar.GetTemperature() - ((myStar.GetTemperature() - minTemperature) / 100);
+        }
+
+        myStar.SetTemperature(nextTemperature);
+
+        if(myStar.GetTemperature() >= maxTemperature - maxTemperature / 100)
+        {
+            grown = false;
+        }
+        else if(myStar.GetTemperature() <= minTemperature + minTemperature / 100)
+        {
+            grown = true;
+        }
+    }
 
     public void UpdateContrast()
     {
@@ -78,7 +117,6 @@ public class MorphStar : MonoBehaviour {
         float scale = Mathf.Pow(1 + Mathf.Sin(Time.time / 5), 3) * 10 + 0.1f;
         myStar.resolutionScale = scale;
     }
-
 
     public void UpdateColors()
     {

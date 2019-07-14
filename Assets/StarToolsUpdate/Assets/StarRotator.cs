@@ -9,6 +9,10 @@ using UnityEngine;
 public class StarRotator : MonoBehaviour {
     public Camera starLockon;
     void Update() {
+
+
+        return;
+
         if (starLockon == null) {
             transform.LookAt(Camera.main.transform);
         } else {

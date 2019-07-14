@@ -9,6 +9,8 @@ using UnityEngine;
 public class CoronaRotator : MonoBehaviour {
     public Camera coronaLockon;
     void Update() {
+        return;
+
         if (coronaLockon == null) {
             transform.parent.LookAt(Camera.main.transform);
         } else {

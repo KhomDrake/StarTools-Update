@@ -274,17 +274,37 @@ PrefabInstance:
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9044118
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.9044118
+      value: 0.95398974
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.9044118
+      value: 0.9202684
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: -3.1627796e+16
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 1.7135061e+12
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 1.5234763e-36
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ebf4d38cfafc34a835c413068d764c, type: 3}
@@ -643,22 +663,42 @@ PrefabInstance:
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9044118
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.9044118
+      value: 0.67499596
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.9044118
+      value: 0.31686923
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Intensity
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 2.595e-42
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: -0.98339623
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 1.0165929e+11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ebf4d38cfafc34a835c413068d764c, type: 3}
@@ -817,17 +857,37 @@ PrefabInstance:
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9044118
+      value: 0.867507
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.9044118
+      value: 0.8938375
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.9044118
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: -187512580
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 1.429144e-36
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 1.676e-42
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ebf4d38cfafc34a835c413068d764c, type: 3}
@@ -867,6 +927,9 @@ MonoBehaviour:
   resolution: 0
   contrast: 0
   rotation: 0
+  temperature: 0
+  maxTemperature: 0
+  minTemperature: 0
 --- !u!1001 &157306254
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1038,6 +1101,26 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 3.47e-42
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 2.0187084e-28
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 8.454798e-38
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
 --- !u!1001 &157332582
@@ -1183,6 +1266,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 129324330
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 1.4166228e-36
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 1.766e-42
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
@@ -1341,17 +1444,37 @@ PrefabInstance:
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9044118
+      value: 0.64828634
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.9044118
+      value: 0.73326504
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.9044118
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 2.1751855e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 7870191
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 1.3925727e-36
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 3.285e-42
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ebf4d38cfafc34a835c413068d764c, type: 3}
@@ -1515,22 +1638,42 @@ PrefabInstance:
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9044118
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.9044118
+      value: 0.7955689
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.9044118
+      value: 0.54970646
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Intensity
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 1e-44
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 6.5677664e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 526292.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 1.34075735e-36
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ebf4d38cfafc34a835c413068d764c, type: 3}
@@ -1679,6 +1822,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 2.119e-42
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 49002.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 7.3382615e-19
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
@@ -1842,22 +2005,42 @@ PrefabInstance:
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9044118
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.9044118
+      value: 0.85708064
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.9044118
+      value: 0.68496734
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Intensity
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 1.247916e-36
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 2.186e-42
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: -6.0502856e+20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ebf4d38cfafc34a835c413068d764c, type: 3}
@@ -1882,7 +2065,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &283555755
 Transform:
   m_ObjectHideFlags: 0
@@ -1914,7 +2097,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &296741130
 Transform:
   m_ObjectHideFlags: 0
@@ -1948,7 +2131,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &307064689
 Transform:
   m_ObjectHideFlags: 0
@@ -2241,17 +2424,37 @@ PrefabInstance:
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9044118
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.9044118
+      value: 0.8269254
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.9044118
+      value: 0.6174247
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 5.314e-42
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 123.79553
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 1.1944225e-36
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ebf4d38cfafc34a835c413068d764c, type: 3}
@@ -2271,6 +2474,10 @@ PrefabInstance:
     - target: {fileID: 1578853595609516, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
       propertyPath: m_Name
       value: Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578853595609516, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4013994877351606, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2404,6 +2611,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 1.51e-43
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 0.0625
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 1.093e-42
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
@@ -2567,17 +2794,37 @@ PrefabInstance:
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9044118
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.9044118
+      value: 0.9395733
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.9044118
+      value: 0.8842274
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 1.1592352e-36
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 3.0845e-41
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: -8.195049e+37
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 5.802467
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ebf4d38cfafc34a835c413068d764c, type: 3}
@@ -2758,6 +3005,26 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: -1.3000535e+10
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 1.1046555e-36
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0.18790819
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
 --- !u!4 &446963648 stripped
@@ -2790,6 +3057,9 @@ MonoBehaviour:
   resolution: 0
   contrast: 0
   rotation: 1
+  temperature: 0
+  maxTemperature: 0
+  minTemperature: 0
 --- !u!1 &462247315
 GameObject:
   m_ObjectHideFlags: 0
@@ -3090,7 +3360,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &483149868
 Transform:
   m_ObjectHideFlags: 0
@@ -3199,7 +3469,7 @@ Light:
   m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 1.9362108e-36, y: 1.3531e-41, z: 1e-44, w: -1.3067257e-22}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -3246,11 +3516,6 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 33113074467247524, guid: 95c7951619b3d0149b23ca6a21912350,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 4300000, guid: 061252cd64ae86344ab0a46039f85f87, type: 3}
     - target: {fileID: 23964370147870908, guid: 95c7951619b3d0149b23ca6a21912350,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -3345,18 +3610,43 @@ PrefabInstance:
     - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.18412781
-      objectReference: {fileID: 0}
-    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
-        type: 3}
-      propertyPath: m_Color.g
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
         type: 3}
-      propertyPath: m_Color.b
-      value: 0.53611946
+      propertyPath: m_Color.g
+      value: 0.2016468
       objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.6303912
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 7.585222e+23
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 0.0148177035
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 1.2e-42
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 33113074467247524, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 061252cd64ae86344ab0a46039f85f87, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
 --- !u!4 &517547259 stripped
@@ -3389,6 +3679,9 @@ MonoBehaviour:
   resolution: 0
   contrast: 0
   rotation: 0
+  temperature: 0
+  maxTemperature: 0
+  minTemperature: 0
 --- !u!114 &517547262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3412,6 +3705,10 @@ PrefabInstance:
     - target: {fileID: 1578853595609516, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
       propertyPath: m_Name
       value: Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578853595609516, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4013994877351606, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3546,6 +3843,26 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
 --- !u!4 &553445100 stripped
@@ -3644,7 +3961,7 @@ Light:
   m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 2.6514468e-13, y: 6.7583464e-37, z: 2.455e-42, w: 7e-45}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -3837,17 +4154,37 @@ PrefabInstance:
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9044118
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.9044118
+      value: 0.86713356
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.9044118
+      value: 0.7068161
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0.010813236
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ebf4d38cfafc34a835c413068d764c, type: 3}
@@ -3887,6 +4224,9 @@ MonoBehaviour:
   resolution: 1
   contrast: 0
   rotation: 0
+  temperature: 0
+  maxTemperature: 0
+  minTemperature: 0
 --- !u!1 &658770953
 GameObject:
   m_ObjectHideFlags: 0
@@ -3977,7 +4317,7 @@ Light:
   m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 1.67e-42, y: 0, z: -424.0067, w: 9.758609e+16}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -3991,6 +4331,10 @@ PrefabInstance:
     - target: {fileID: 1578853595609516, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
       propertyPath: m_Name
       value: Green
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578853595609516, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4013994877351606, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4124,6 +4468,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0.4292208
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 2.3509887e-38
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 2.3509926e-38
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 1.148e-41
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
@@ -4287,22 +4651,42 @@ PrefabInstance:
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9044118
+      value: 0.91558963
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.9044118
+      value: 0.9266087
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.9044118
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Intensity
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: -0.12477112
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ebf4d38cfafc34a835c413068d764c, type: 3}
@@ -4679,17 +5063,37 @@ PrefabInstance:
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9044118
+      value: 0.63548446
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.9044118
+      value: 0.7225052
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.9044118
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: -0.00000011920929
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ebf4d38cfafc34a835c413068d764c, type: 3}
@@ -4699,204 +5103,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 746973200}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &764824922
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1379306804}
-    m_Modifications:
-    - target: {fileID: 1578853595609516, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
-      propertyPath: m_Name
-      value: Morph
-      objectReference: {fileID: 0}
-    - target: {fileID: 4013994877351606, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 25.035492
-      objectReference: {fileID: 0}
-    - target: {fileID: 4013994877351606, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 4013994877351606, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4013994877351606, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.022337059
-      objectReference: {fileID: 0}
-    - target: {fileID: 4013994877351606, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.8952363
-      objectReference: {fileID: 0}
-    - target: {fileID: 4013994877351606, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.045167007
-      objectReference: {fileID: 0}
-    - target: {fileID: 4013994877351606, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.4427334
-      objectReference: {fileID: 0}
-    - target: {fileID: 4013994877351606, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4013994877351606, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 4013994877351606, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 4013994877351606, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 33113074467247524, guid: 95c7951619b3d0149b23ca6a21912350,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 4300000, guid: 061252cd64ae86344ab0a46039f85f87, type: 3}
-    - target: {fileID: 23964370147870908, guid: 95c7951619b3d0149b23ca6a21912350,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 20a502851eb93674db4c1ab7a6fbf368, type: 2}
-    - target: {fileID: 114622135735205168, guid: 95c7951619b3d0149b23ca6a21912350,
-        type: 3}
-      propertyPath: baseStarColor.r
-      value: 0.5139276
-      objectReference: {fileID: 0}
-    - target: {fileID: 114622135735205168, guid: 95c7951619b3d0149b23ca6a21912350,
-        type: 3}
-      propertyPath: baseStarColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114622135735205168, guid: 95c7951619b3d0149b23ca6a21912350,
-        type: 3}
-      propertyPath: baseStarColor.b
-      value: 0.006084442
-      objectReference: {fileID: 0}
-    - target: {fileID: 114622135735205168, guid: 95c7951619b3d0149b23ca6a21912350,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198933268722658144, guid: 95c7951619b3d0149b23ca6a21912350,
-        type: 3}
-      propertyPath: randomSeed
-      value: 1940582823
-      objectReference: {fileID: 0}
-    - target: {fileID: 198933268722658144, guid: 95c7951619b3d0149b23ca6a21912350,
-        type: 3}
-      propertyPath: lengthInSec
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 198933268722658144, guid: 95c7951619b3d0149b23ca6a21912350,
-        type: 3}
-      propertyPath: ShapeModule.type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198933268722658144, guid: 95c7951619b3d0149b23ca6a21912350,
-        type: 3}
-      propertyPath: ShapeModule.radius.value
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 198933268722658144, guid: 95c7951619b3d0149b23ca6a21912350,
-        type: 3}
-      propertyPath: EmissionModule.rateOverTime.scalar
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 198933268722658144, guid: 95c7951619b3d0149b23ca6a21912350,
-        type: 3}
-      propertyPath: ShapeModule.radiusThickness
-      value: 0.0000
-      objectReference: {fileID: 0}
-    - target: {fileID: 199385865167904218, guid: 95c7951619b3d0149b23ca6a21912350,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b9b2cc4fc64ae194f9d46c96a64b69a7, type: 2}
-    - target: {fileID: 4817132370488646, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.0000000037252899
-      objectReference: {fileID: 0}
-    - target: {fileID: 4817132370488646, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4817132370488646, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4817132370488646, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 23386944057546796, guid: 95c7951619b3d0149b23ca6a21912350,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b9b2cc4fc64ae194f9d46c96a64b69a7, type: 2}
-    - target: {fileID: 23386944057546796, guid: 95c7951619b3d0149b23ca6a21912350,
-        type: 3}
-      propertyPath: m_ReceiveShadows
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 23386944057546796, guid: 95c7951619b3d0149b23ca6a21912350,
-        type: 3}
-      propertyPath: m_CastShadows
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0.18412781
-      objectReference: {fileID: 0}
-    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0.53611946
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
---- !u!4 &764824923 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4013994877351606, guid: 95c7951619b3d0149b23ca6a21912350,
-    type: 3}
-  m_PrefabInstance: {fileID: 764824922}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &764824924 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1578853595609516, guid: 95c7951619b3d0149b23ca6a21912350,
-    type: 3}
-  m_PrefabInstance: {fileID: 764824922}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &764824925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 764824924}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bffe9bf9e52b6b4494c78d31fddb968, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  size: 0
-  color: 1
-  timescale: 0
-  resolution: 0
-  contrast: 0
-  rotation: 0
 --- !u!1001 &824711799
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5051,17 +5257,37 @@ PrefabInstance:
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9044118
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.9044118
+      value: 0.94772756
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.9044118
+      value: 0.90461296
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0.015625
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 6.3250305e+28
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ebf4d38cfafc34a835c413068d764c, type: 3}
@@ -5118,18 +5344,28 @@ PrefabInstance:
     - target: {fileID: 114622135735205168, guid: 95c7951619b3d0149b23ca6a21912350,
         type: 3}
       propertyPath: baseStarColor.r
-      value: 0.45588237
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114622135735205168, guid: 95c7951619b3d0149b23ca6a21912350,
         type: 3}
       propertyPath: baseStarColor.g
-      value: 0.79736316
+      value: 0.94759154
       objectReference: {fileID: 0}
     - target: {fileID: 114622135735205168, guid: 95c7951619b3d0149b23ca6a21912350,
         type: 3}
       propertyPath: baseStarColor.b
-      value: 1
+      value: 0.9042729
       objectReference: {fileID: 0}
+    - target: {fileID: 114622135735205168, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: manualColors
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114622135735205168, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: coronaStrips.Array.data[0]
+      value: 
+      objectReference: {fileID: 1537102975}
     - target: {fileID: 198933268722658144, guid: 95c7951619b3d0149b23ca6a21912350,
         type: 3}
       propertyPath: randomSeed
@@ -5199,17 +5435,37 @@ PrefabInstance:
     - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.45588237
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.79736316
+      value: 0.94759154
       objectReference: {fileID: 0}
     - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
         type: 3}
       propertyPath: m_Color.b
-      value: 1
+      value: 0.9042729
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0.02734375
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: -0.0390625
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
@@ -5405,6 +5661,26 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 3.0973432e+27
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: NaN
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
 --- !u!4 &905451911 stripped
@@ -5437,6 +5713,9 @@ MonoBehaviour:
   resolution: 0
   contrast: 1
   rotation: 0
+  temperature: 0
+  maxTemperature: 0
+  minTemperature: 0
 --- !u!1 &934065451
 GameObject:
   m_ObjectHideFlags: 0
@@ -5527,7 +5806,7 @@ Light:
   m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: -0.038198397, y: 2.481736e+13, z: 1.642894e-36, w: 8.49988e-40}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -5541,6 +5820,10 @@ PrefabInstance:
     - target: {fileID: 1578853595609516, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
       propertyPath: m_Name
       value: Orange
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578853595609516, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4013994877351606, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5691,6 +5974,26 @@ PrefabInstance:
     - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
         type: 3}
       propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5850,17 +6153,37 @@ PrefabInstance:
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9044118
+      value: 0.999312
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.9044118
+      value: 0.9764706
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.9044118
+      value: 0.98706573
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 4.6888187e-38
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 2.175e-42
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: -5.8526716e-35
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: -5.3734893e+27
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ebf4d38cfafc34a835c413068d764c, type: 3}
@@ -6024,22 +6347,42 @@ PrefabInstance:
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9044118
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.9044118
+      value: 0.9579742
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.9044118
+      value: 0.93022966
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Intensity
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: -2.8168464e+26
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: -2.738049e-13
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 4.587349e-38
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ebf4d38cfafc34a835c413068d764c, type: 3}
@@ -6059,6 +6402,10 @@ PrefabInstance:
     - target: {fileID: 1578853595609516, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
       propertyPath: m_Name
       value: Black
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578853595609516, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4013994877351606, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6193,6 +6540,26 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.13235295
       objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 4.5905e-41
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 1e-45
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 59.080093
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
 --- !u!4 &1020515889 stripped
@@ -6231,6 +6598,9 @@ MonoBehaviour:
   resolution: 0
   contrast: 0
   rotation: 1
+  temperature: 0
+  maxTemperature: 0
+  minTemperature: 0
 --- !u!1 &1035680345
 GameObject:
   m_ObjectHideFlags: 0
@@ -6246,7 +6616,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1035680346
 Transform:
   m_ObjectHideFlags: 0
@@ -6437,6 +6807,26 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: -6.9792236e+24
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 7.12e-43
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 7.3049517e+25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
 --- !u!4 &1041265738 stripped
@@ -6469,6 +6859,9 @@ MonoBehaviour:
   resolution: 1
   contrast: 0
   rotation: 0
+  temperature: 0
+  maxTemperature: 0
+  minTemperature: 0
 --- !u!1 &1049434077
 GameObject:
   m_ObjectHideFlags: 0
@@ -6510,6 +6903,10 @@ PrefabInstance:
     - target: {fileID: 1578853595609516, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
       propertyPath: m_Name
       value: White
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578853595609516, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4013994877351606, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6651,6 +7048,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0.9705882
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 3.5e-44
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 2.296e-41
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
@@ -6959,6 +7376,26 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: -1.7989143e-37
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 3.9977274e-38
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 1.676e-42
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
 --- !u!4 &1096807543 stripped
@@ -7133,6 +7570,26 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: -6.815509e+21
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 3.877597e-38
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 1.054e-42
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
 --- !u!4 &1103796961 stripped
@@ -7165,6 +7622,9 @@ MonoBehaviour:
   resolution: 0
   contrast: 0
   rotation: 0
+  temperature: 0
+  maxTemperature: 0
+  minTemperature: 0
 --- !u!1 &1123405791
 GameObject:
   m_ObjectHideFlags: 0
@@ -7287,7 +7747,7 @@ Light:
   m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 4.03e-42, y: 0, z: -0.022344787, w: 1.1814273e-17}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -7477,6 +7937,26 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: -1.752257e+25
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: -1.4989268e+19
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 3.617906e-38
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
 --- !u!1001 &1178379385
@@ -7623,6 +8103,26 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 1.0635651e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: -3.6834034e+20
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 3.7469645e-38
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 1.9e-43
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
 --- !u!4 &1178379386 stripped
@@ -7672,6 +8172,45 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 283555755}
     m_Modifications:
+    - target: {fileID: 1048261469465406, guid: 06dfd25d33501f646832fd87725257b5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108982143766086836, guid: 06dfd25d33501f646832fd87725257b5,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.45588237
+      objectReference: {fileID: 0}
+    - target: {fileID: 108982143766086836, guid: 06dfd25d33501f646832fd87725257b5,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.79736316
+      objectReference: {fileID: 0}
+    - target: {fileID: 108982143766086836, guid: 06dfd25d33501f646832fd87725257b5,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108982143766086836, guid: 06dfd25d33501f646832fd87725257b5,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: -2.3620898e-33
+      objectReference: {fileID: 0}
+    - target: {fileID: 108982143766086836, guid: 06dfd25d33501f646832fd87725257b5,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 7.37e-43
+      objectReference: {fileID: 0}
+    - target: {fileID: 108982143766086836, guid: 06dfd25d33501f646832fd87725257b5,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108982143766086836, guid: 06dfd25d33501f646832fd87725257b5,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: -2.2751355e-33
+      objectReference: {fileID: 0}
     - target: {fileID: 4192245908186484, guid: 06dfd25d33501f646832fd87725257b5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -7727,7 +8266,7 @@ PrefabInstance:
     - target: {fileID: 198284508504162064, guid: 06dfd25d33501f646832fd87725257b5,
         type: 3}
       propertyPath: randomSeed
-      value: -321060326
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 198284508504162064, guid: 06dfd25d33501f646832fd87725257b5,
         type: 3}
@@ -7742,7 +8281,7 @@ PrefabInstance:
     - target: {fileID: 198284508504162064, guid: 06dfd25d33501f646832fd87725257b5,
         type: 3}
       propertyPath: ShapeModule.radius.value
-      value: 
+      value: 0.0001
       objectReference: {fileID: 0}
     - target: {fileID: 198284508504162064, guid: 06dfd25d33501f646832fd87725257b5,
         type: 3}
@@ -7752,7 +8291,7 @@ PrefabInstance:
     - target: {fileID: 198284508504162064, guid: 06dfd25d33501f646832fd87725257b5,
         type: 3}
       propertyPath: ShapeModule.radiusThickness
-      value: 0.0000
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 199393936419228742, guid: 06dfd25d33501f646832fd87725257b5,
         type: 3}
@@ -7849,21 +8388,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_CastShadows
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 108982143766086836, guid: 06dfd25d33501f646832fd87725257b5,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0.45588237
-      objectReference: {fileID: 0}
-    - target: {fileID: 108982143766086836, guid: 06dfd25d33501f646832fd87725257b5,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.79736316
-      objectReference: {fileID: 0}
-    - target: {fileID: 108982143766086836, guid: 06dfd25d33501f646832fd87725257b5,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06dfd25d33501f646832fd87725257b5, type: 3}
@@ -7963,7 +8487,7 @@ Light:
   m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 0.00016203626, z: 5.5281806e-16, w: 5.4989553e-37}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -8121,22 +8645,42 @@ PrefabInstance:
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9044118
+      value: 0.6603638
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.9044118
+      value: 0.7436171
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.9044118
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Intensity
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 2.6730668e-12
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 3.8969774e-22
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 4.5688446e-37
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 2.2931e-41
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ebf4d38cfafc34a835c413068d764c, type: 3}
@@ -8300,22 +8844,42 @@ PrefabInstance:
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9044118
+      value: 0.87153894
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.9044118
+      value: 0.8962567
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.9044118
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Intensity
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 5.86925e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 6.15135e-24
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 4.1623865e-37
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ebf4d38cfafc34a835c413068d764c, type: 3}
@@ -8471,7 +9035,7 @@ Transform:
   m_LocalPosition: {x: -1500, y: -250, z: -3489}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 764824923}
+  - {fileID: 4013995625102316}
   - {fileID: 553445100}
   - {fileID: 390922834}
   - {fileID: 665912962}
@@ -8511,6 +9075,9 @@ MonoBehaviour:
   resolution: 0
   contrast: 0
   rotation: 0
+  temperature: 0
+  maxTemperature: 0
+  minTemperature: 0
 --- !u!1001 &1423164612
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8697,6 +9264,26 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
 --- !u!1001 &1423392342
@@ -8853,17 +9440,37 @@ PrefabInstance:
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9044118
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.9044118
+      value: 0.74155253
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.9044118
+      value: 0.4414988
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 3.0845e-41
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 1.4198323e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 2.2384024e-25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ebf4d38cfafc34a835c413068d764c, type: 3}
@@ -9073,17 +9680,37 @@ PrefabInstance:
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9044118
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.9044118
+      value: 0.9186114
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.9044118
+      value: 0.8333012
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 8.9171504e-38
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 1.205e-42
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: -1.2675487e+30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ebf4d38cfafc34a835c413068d764c, type: 3}
@@ -9092,6 +9719,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4445797196202168, guid: a2ebf4d38cfafc34a835c413068d764c,
     type: 3}
   m_PrefabInstance: {fileID: 1488493979}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1537102975 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23386944057546796, guid: 95c7951619b3d0149b23ca6a21912350,
+    type: 3}
+  m_PrefabInstance: {fileID: 859513564}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1552673346
 GameObject:
@@ -9279,7 +9912,7 @@ Light:
   m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 5.433795e+14, y: 1.8073211e-36, z: 3.0845e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -9304,7 +9937,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &1591612024
 AudioListener:
   m_ObjectHideFlags: 0
@@ -9470,15 +10103,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4013994877351606, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
       propertyPath: m_LocalScale.x
-      value: 128.737
+      value: 138.93195
       objectReference: {fileID: 0}
     - target: {fileID: 4013994877351606, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
       propertyPath: m_LocalScale.y
-      value: 128.737
+      value: 138.93195
       objectReference: {fileID: 0}
     - target: {fileID: 4013994877351606, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
       propertyPath: m_LocalScale.z
-      value: 128.737
+      value: 138.93195
       objectReference: {fileID: 0}
     - target: {fileID: 23964370147870908, guid: 95c7951619b3d0149b23ca6a21912350,
         type: 3}
@@ -9609,6 +10242,26 @@ PrefabInstance:
     - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
         type: 3}
       propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: NaN
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9881,17 +10534,37 @@ PrefabInstance:
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9044118
+      value: 0.790089
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.9044118
+      value: 0.8396256
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.9044118
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 7.488738e-31
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: NaN
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ebf4d38cfafc34a835c413068d764c, type: 3}
@@ -9931,6 +10604,9 @@ MonoBehaviour:
   resolution: 0
   contrast: 1
   rotation: 0
+  temperature: 0
+  maxTemperature: 0
+  minTemperature: 0
 --- !u!1 &1780910373
 GameObject:
   m_ObjectHideFlags: 0
@@ -10167,6 +10843,26 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: -1.0692088e+31
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: NaN
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
 --- !u!4 &1785529131 stripped
@@ -10265,7 +10961,7 @@ Light:
   m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 8.971516e-21, y: 4.7066266e-37, z: 5.398e-42, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -10276,6 +10972,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1123405792}
     m_Modifications:
+    - target: {fileID: 108982143766086836, guid: 06dfd25d33501f646832fd87725257b5,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.45588237
+      objectReference: {fileID: 0}
+    - target: {fileID: 108982143766086836, guid: 06dfd25d33501f646832fd87725257b5,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.79736316
+      objectReference: {fileID: 0}
+    - target: {fileID: 108982143766086836, guid: 06dfd25d33501f646832fd87725257b5,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108982143766086836, guid: 06dfd25d33501f646832fd87725257b5,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 8.1e-43
+      objectReference: {fileID: 0}
+    - target: {fileID: 108982143766086836, guid: 06dfd25d33501f646832fd87725257b5,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108982143766086836, guid: 06dfd25d33501f646832fd87725257b5,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108982143766086836, guid: 06dfd25d33501f646832fd87725257b5,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: -1.893281e-25
+      objectReference: {fileID: 0}
     - target: {fileID: 4192245908186484, guid: 06dfd25d33501f646832fd87725257b5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -10454,21 +11185,6 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 108982143766086836, guid: 06dfd25d33501f646832fd87725257b5,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0.45588237
-      objectReference: {fileID: 0}
-    - target: {fileID: 108982143766086836, guid: 06dfd25d33501f646832fd87725257b5,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.79736316
-      objectReference: {fileID: 0}
-    - target: {fileID: 108982143766086836, guid: 06dfd25d33501f646832fd87725257b5,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06dfd25d33501f646832fd87725257b5, type: 3}
 --- !u!4 &1862250727 stripped
@@ -10522,15 +11238,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4013994877351606, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
       propertyPath: m_LocalScale.x
-      value: 128.737
+      value: 73.5993
       objectReference: {fileID: 0}
     - target: {fileID: 4013994877351606, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
       propertyPath: m_LocalScale.y
-      value: 128.737
+      value: 73.5993
       objectReference: {fileID: 0}
     - target: {fileID: 4013994877351606, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
       propertyPath: m_LocalScale.z
-      value: 128.737
+      value: 73.5993
       objectReference: {fileID: 0}
     - target: {fileID: 23964370147870908, guid: 95c7951619b3d0149b23ca6a21912350,
         type: 3}
@@ -10663,6 +11379,26 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
 --- !u!4 &1917085612 stripped
@@ -10695,6 +11431,9 @@ MonoBehaviour:
   resolution: 0
   contrast: 0
   rotation: 0
+  temperature: 0
+  maxTemperature: 0
+  minTemperature: 0
 --- !u!1 &1984273837
 GameObject:
   m_ObjectHideFlags: 0
@@ -10877,17 +11616,37 @@ PrefabInstance:
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9044118
+      value: 0.7040005
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.9044118
+      value: 0.77718556
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.9044118
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: NaN
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ebf4d38cfafc34a835c413068d764c, type: 3}
@@ -11040,6 +11799,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0.4292208
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: -7.778624e-19
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: -8.8815814e+17
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 1.519e-42
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
@@ -11215,6 +11994,26 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108229961520593860, guid: 95c7951619b3d0149b23ca6a21912350,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95c7951619b3d0149b23ca6a21912350, type: 3}
 --- !u!1 &2025166036
@@ -11240,7 +12039,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &2025166037
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -16300,17 +17099,37 @@ PrefabInstance:
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9044118
+      value: 0.867507
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.9044118
+      value: 0.8938375
       objectReference: {fileID: 0}
     - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.9044118
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108985599362389172, guid: a2ebf4d38cfafc34a835c413068d764c,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ebf4d38cfafc34a835c413068d764c, type: 3}
@@ -16320,3 +17139,103 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2133932494}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &4013995625102316 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1679681998509976367, guid: 23dda001e3cc260498828ac28eb59899,
+    type: 3}
+  m_PrefabInstance: {fileID: 1675672582630871235}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1675672582630871235
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1379306804}
+    m_Modifications:
+    - target: {fileID: 1676663563356382261, guid: 23dda001e3cc260498828ac28eb59899,
+        type: 3}
+      propertyPath: m_Name
+      value: BasicStar
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679681998509976367, guid: 23dda001e3cc260498828ac28eb59899,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 25.035492
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679681998509976367, guid: 23dda001e3cc260498828ac28eb59899,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679681998509976367, guid: 23dda001e3cc260498828ac28eb59899,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679681998509976367, guid: 23dda001e3cc260498828ac28eb59899,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.022337059
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679681998509976367, guid: 23dda001e3cc260498828ac28eb59899,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8952363
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679681998509976367, guid: 23dda001e3cc260498828ac28eb59899,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.045167007
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679681998509976367, guid: 23dda001e3cc260498828ac28eb59899,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.4427334
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679681998509976367, guid: 23dda001e3cc260498828ac28eb59899,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679681998509976367, guid: 23dda001e3cc260498828ac28eb59899,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679681998509976367, guid: 23dda001e3cc260498828ac28eb59899,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679681998509976367, guid: 23dda001e3cc260498828ac28eb59899,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1675672582135045533, guid: 23dda001e3cc260498828ac28eb59899,
+        type: 3}
+      propertyPath: configuration.starPositionTransformation.orbitingObject
+      value: 
+      objectReference: {fileID: 1379306804}
+    - target: {fileID: 1639782806336333405, guid: 23dda001e3cc260498828ac28eb59899,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: -4.8357033e+24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1639782806336333405, guid: 23dda001e3cc260498828ac28eb59899,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 1.5046335e-36
+      objectReference: {fileID: 0}
+    - target: {fileID: 1639782806336333405, guid: 23dda001e3cc260498828ac28eb59899,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 6e-45
+      objectReference: {fileID: 0}
+    - target: {fileID: 1639782806336333405, guid: 23dda001e3cc260498828ac28eb59899,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 33554432
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 23dda001e3cc260498828ac28eb59899, type: 3}

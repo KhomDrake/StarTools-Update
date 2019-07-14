@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-[CustomEditor(typeof(Star))]
 public class StarEditor : Editor {
 
     public override void OnInspectorGUI()

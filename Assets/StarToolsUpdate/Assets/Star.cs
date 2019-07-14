@@ -191,13 +191,13 @@ public class Star : MonoBehaviour {
     public Vector3 rotationRates = new Vector3(0, -1, 0);   //Since the texture for a star is based off of 3d noise, we can rotate the entire thing
     private Vector3 actualRotation = new Vector3(0, 0, 0);   //Since the texture for a star is based off of 3d noise, we can rotate the entire thing
 
-    public Color baseStarColor = Color.white;
+    public Color baseStarColor;
 
-    public GameObject[] coronaStrips;   //A list of all corona objects
+    public Renderer[] coronaStrips;   //A list of all corona objects
 
     MaterialPropertyBlock mpb;  //Used to mass apply settings to stars and coronas
 
-    public float temperatureKelvin = 0;
+    [Range(100, 50000)]public float temperatureKelvin = 0;
     private float cachedB_v = 0;
 
     public void SetLookupTables(float[] temperature, float[] bMinusV, string[] colors) {
@@ -209,6 +209,16 @@ public class Star : MonoBehaviour {
         }
     }
 
+    private Light light;
+    private Renderer renderer;
+    private ParticleSystemRenderer particleSystemRenderer;
+    private ParticleSystem particleSystem;
+
+    private void Awake()
+    {
+        renderer = GetComponent<Renderer>();
+    }
+
     //Set materials
     public void OnRenderObject() {
         if (mpb == null) {
@@ -216,8 +226,11 @@ public class Star : MonoBehaviour {
         }
 
         //Set light properties
-        if (GetComponentInChildren<Light>() != null)
-            GetComponentInChildren<Light>().color = GetColor();
+        if (light == null && GetComponentInChildren<Light>() != null)
+            light = GetComponentInChildren<Light>();
+
+        if(light != null)
+            light.color = GetColor();
 
         //Handle pauses
         if (!GetIsPaused()) {
@@ -234,17 +247,24 @@ public class Star : MonoBehaviour {
         mpb.SetFloat("_Contrast", contrast);
 
         //Apply properties
-        GetComponent<Renderer>().SetPropertyBlock(mpb);
+        renderer.SetPropertyBlock(mpb);
         for (int i = 0; i < coronaStrips.Length; i++) {
-            coronaStrips[i].GetComponent<Renderer>().SetPropertyBlock(mpb);
+            coronaStrips[i].SetPropertyBlock(mpb);
         }
-        if (GetComponent<ParticleSystemRenderer>() != null) {
-            GetComponent<ParticleSystemRenderer>().SetPropertyBlock(mpb);
+        if (particleSystemRenderer == null && GetComponent<ParticleSystemRenderer>() != null) 
+            particleSystemRenderer = GetComponent<ParticleSystemRenderer>();
+
+        if(particleSystemRenderer != null) { 
+            particleSystemRenderer.SetPropertyBlock(mpb);
+
+            if (particleSystem == null)
+                particleSystem = GetComponent<ParticleSystem>();
+
             if (GetIsPaused()) {
-                GetComponent<ParticleSystem>().Pause();
+                particleSystem.Pause();
             }
             else {
-                GetComponent<ParticleSystem>().Play();
+                particleSystem.Play();
             }
         }
     }
@@ -308,9 +328,7 @@ public class Star : MonoBehaviour {
 
     //On startup, make sure that B-V, color, and temperature data are accurate. Temperature takes precedence by default.
     public void Start() {
-        if (!manualColors) {
-            SetTemperature(GetTemperature());
-        }
+       SetTemperature(GetTemperature());
     }
 
     //Get temp from B-v
@@ -396,32 +414,75 @@ http://www.vendian.org/mncharity/dir3/starcolor/details.html
     // there is no fast and accurate equation as far as I'm aware
     // besides doing the actual physics equations
     //Must be called AFTER the temperature reset
-    private void RecalculateScienceColor() {
+    private void RecalculateScienceColor()
+    {
         /*
         http://www.vendian.org/mncharity/dir3/starcolor/details.html
          */
         //First find if it's out of bounds, and if so set the appropriate color
-        if (GetTemperature() >= temperatureLookup[0]) {
+
+        //float temperature = GetTemperature();
+        //Debug.Log(temperature);
+
+        //for (int i = 0; i < temperatureLookup.Length; i++)
+        //{
+        //    Debug.Log("to look up: " + temperatureLookup[i]);
+        //    if(i == 0)
+        //    {
+        //        if(temperature < temperatureLookup[i])
+        //        {
+        //            baseStarColor = HexCodeToColor(colorLookup[i]);
+        //        }
+        //    }
+        //    if(i - 1 >= 0)
+        //    {
+        //        if(temperature >= temperatureLookup[i] && temperature <= temperatureLookup[i - 1])
+        //        {
+        //            Debug.Log("asddsda" + " " + temperatureLookup[i]);
+        //            baseStarColor = HexCodeToColor(colorLookup[i]);
+        //            return;
+        //        }
+        //    }
+        //    else if(i == temperatureLookup.Length - 1)
+        //    {
+        //        Debug.Log("asd");
+        //        baseStarColor = HexCodeToColor(colorLookup[colorLookup.Length - 1]);
+        //    }
+        //}
+
+        if (GetTemperature() >= temperatureLookup[0])
+        {
             baseStarColor = HexCodeToColor(colorLookup[0]);
-            return;
-        } else if (GetTemperature() <= temperatureLookup[temperatureLookup.Length - 1]) {
+            Debug.Log(1);
+        }
+        else if (GetTemperature() <= temperatureLookup[temperatureLookup.Length - 1])
+        {
             baseStarColor = HexCodeToColor(colorLookup[colorLookup.Length - 1]);
-            return;
-        } else {
+            Debug.Log(2);
+        }
+        else
+        {
             //It's in bounds, so find the closest two color/temperature pairs and do a linear interpolation
             //Or the exact color if it matches perfectly
             //This can be sped up later on TODO
             int max = 0;
             int min = temperatureLookup.Length - 1;
-            for (int i = 0; i < temperatureLookup.Length; i++) {
+            for (int i = 0; i < temperatureLookup.Length; i++)
+            {
                 //Handle exact match
-                if (temperatureLookup[i] == GetTemperature()) {
+                if (temperatureLookup[i] == GetTemperature())
+                {
                     baseStarColor = HexCodeToColor(colorLookup[i]);
                     return;
                 }
-                if (temperatureLookup[i] > GetTemperature() && temperatureLookup[i] < temperatureLookup[max]) {
+                if (temperatureLookup[i] > GetTemperature() && 
+                    temperatureLookup[i] < temperatureLookup[max])
+                {
                     max = i;
-                } else if (temperatureLookup[i] < GetTemperature() && temperatureLookup[i] > temperatureLookup[min]) {
+                }
+                else if (temperatureLookup[i] < GetTemperature() && 
+                    temperatureLookup[i] > temperatureLookup[min])
+                {
                     min = i;
                 }
             }
@@ -443,7 +504,6 @@ http://www.vendian.org/mncharity/dir3/starcolor/details.html
 
     //Sets the color of the star- keep in mind that this will also enable manual color usage, so changing the temperature/b-v after will not directly affect colors.
     public void SetColor(Color newColor) {
-        manualColors = true;
         baseStarColor = newColor;
     }
 
